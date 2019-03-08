@@ -1,3 +1,3 @@
 all:
-	rsync -avr ./* unixpeople.org:/var/www/unixpeople.org/www/htdocs/
+	rsync -avr --delete --delete-excluded ./* unixpeople.org:/var/www/unixpeople.org/www/htdocs/
 
